@@ -1,0 +1,35 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+}
+
+.App__pageSelector {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #0e0e0e;
+}
+
+.App__button {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #0e0e0e;
+  margin: 0 8px;
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid #0e0e0e;
+}
+
+.App__button:hover {
+  cursor: pointer;
+}
+
+.App__button[aria-selected="true"] {
+  background-color: aqua;
+}
